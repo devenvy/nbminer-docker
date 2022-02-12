@@ -2,6 +2,7 @@ on:
   push:
     branches: [main]
 
+name: Build Docker image and push to repositories
 jobs:
 
   build-and-push:
