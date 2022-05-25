@@ -1,6 +1,6 @@
 FROM alpine:latest AS staging
 
-ENV NBMINER_VERSION="42.0"
+ENV NBMINER_VERSION="42.1"
 ENV NBMINER_DOWNLOAD_URL="https://github.com/NebuTech/NBMiner/releases/download/v${NBMINER_VERSION}/NBMiner_${NBMINER_VERSION}_Linux.tgz"
 
 WORKDIR /staging
